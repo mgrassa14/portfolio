@@ -1,0 +1,11 @@
+import "./Works.css"
+
+export default function Works(){
+    return(
+        <>
+        <div id="works" >
+            <h1>Works</h1>
+        </div>
+        </>
+    )
+}
