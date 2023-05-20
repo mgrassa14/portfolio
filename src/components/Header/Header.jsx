@@ -1,23 +1,33 @@
-import { Link } from "react-router-dom";
-import { Menu, Icon } from "semantic-ui-react";
+import { Menu, Icon, Segment } from "semantic-ui-react";
 import React, { Component } from "react";
 import "./Header.css"
+import { HashLink } from "react-router-hash-link";
+import { Link } from "react-router-dom";
 
 export default function PageHeader(){
   return (
-    <Menu id="header" fixed='top' inverted size='huge'>
-        <Menu.Item>
-            <Icon name='camera' />
-                TechGram
-        </Menu.Item>
-        <Menu.Menu position='right'>
+    <Segment inverted id="header">
+        <Menu fixed='top' inverted secondary size='huge'>
             <Menu.Item>
-                Log in
-            </Menu.Item>    
-            <Menu.Item>
-                Signup
-            </Menu.Item>  
-        </Menu.Menu>
-    </Menu>
+                <HashLink id="Name" to='#header' smooth >
+                Maria Grassa
+                </HashLink>
+            </Menu.Item>
+            <Menu.Menu position='right'>
+                <Menu.Item>
+                    <HashLink id="About" to='#about' smooth >About</HashLink>
+                </Menu.Item>   
+                <Menu.Item>
+                    <HashLink id="Works" to='#works' smooth >Works</HashLink>
+                </Menu.Item> 
+                <Menu.Item id="Resume" as={Link} to='/resume'>
+                    Resume
+                </Menu.Item> 
+                <Menu.Item>
+                    <HashLink id="Contact" to='#contact' smooth >Contact</HashLink>
+                </Menu.Item>
+            </Menu.Menu>
+        </Menu>
+    </Segment>
   );
 }

@@ -1,8 +1,9 @@
 #about {
   /* margin: 4rem auto; */
   text-align: center;
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
   width: 100vw;
-  padding-top: 55px;
-  margin: 0;
+  /* padding-top: 55px; */
+  margin: 0 !important;
+  height: 800px;
 }

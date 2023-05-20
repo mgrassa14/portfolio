@@ -1,3 +1,14 @@
-/* #header{
-    margin-top: 5rem;
-} */
+#header{
+    border-radius: 0;
+    height: 50px;
+    margin: 0px !important;
+    font-family: Arial;
+}
+#Name, #About, #Resume, #Works, #Contact {
+    color: #bdabda;
+    /* background-color: transparent !important; */
+}
+ #name {
+    font-family: 'Caveat', cursive;
+    font-size: larger;
+ }
