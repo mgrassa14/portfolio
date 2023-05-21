@@ -14,16 +14,22 @@ import { HashLink } from 'react-router-hash-link'
 
 export default function App() {
   return (
-    <>
-    <PageHeader />
-    <About />
-    <Works />
-    <Contact />
-    <Footer />
+    
+    <Routes>
+      <Route path='/' element={(
+      <>
+      <PageHeader />
+      <About />
+      <Works />
+      <Contact />
+      <Footer />
+      </>  
+      )}/>
+    
 
-    {/* <Routes>
+    
       <Route path="/resume" element={<Resume />} />
-    </Routes> */}
-    </>
+    </Routes>
+    
   )
 }

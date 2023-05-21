@@ -4,8 +4,8 @@
     margin: 0px !important;
     font-family: Arial;
 }
-#Name, #About, #Resume, #Works, #Contact {
-    color: #bdabda;
+#Name, #About, #Resume, #Works, #Contact, #Home {
+    color: #bdabda !important;
     /* background-color: transparent !important; */
 }
  #name {
