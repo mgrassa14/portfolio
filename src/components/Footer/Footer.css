@@ -12,16 +12,13 @@
     padding: 0;
 }
 
-#inIcon {
+#inIcon, #gitIcon {
     margin: 0px !important;
+    color: #bdabda !important;
 }
 
 #github {
     padding: 0;
-    margin: 0px !important;
-}
-
-#gitIcon {
     margin: 0px !important;
 }
 

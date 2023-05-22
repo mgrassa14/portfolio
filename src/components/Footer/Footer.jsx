@@ -18,6 +18,10 @@ export default function Footer(){
                     <Icon id='inIcon' size='big' name="linkedin alternate"/>
                     {/* <Image size='tiny' as='a' target='_blank' src="https://i.imgur.com/SoLFdak.png" href="https://www.linkedin.com/in/maria-grassa/"/> */}
                 </Menu.Item>
+                <Menu.Item id='empty'></Menu.Item>
+                <Menu.Item id="linkedin" target='_blank' href="https://drive.google.com/file/d/1amZIJLl_jQE71qUrLntxMllDyRg4xd5A/view?usp=share_link">
+                    <Icon id='inIcon' size='big' name="file outline"/>
+                </Menu.Item>
             </Menu>
         </Segment>
         

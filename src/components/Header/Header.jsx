@@ -23,9 +23,9 @@ export default function PageHeader(){
                 <Menu.Item>
                     <HashLink id="Works" to='#works' smooth >Works</HashLink>
                 </Menu.Item> 
-                <Menu.Item id="Resume" as={Link} to='/resume'>
+                {/* <Menu.Item id="Resume" as={Link} to='/resume'>
                     Resume
-                </Menu.Item> 
+                </Menu.Item>  */}
                 <Menu.Item>
                     <HashLink id="Contact" to='#contact' smooth >Contact</HashLink>
                 </Menu.Item>

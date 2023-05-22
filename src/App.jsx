@@ -25,9 +25,6 @@ export default function App() {
       <Footer />
       </>  
       )}/>
-    
-
-    
       <Route path="/resume" element={<Resume />} />
     </Routes>
     

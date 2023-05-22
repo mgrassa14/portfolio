@@ -2,5 +2,17 @@
     background-color: white;
     margin: 0px !important;
     text-align: center;
-    height: 800px;
+    align-items: center;
+    /* height: 800px; */
+}
+
+#photo {
+    height: auto;
+}
+
+#workCards {
+    /* background-color: blue; */
+    /* padding: 20px; */
+    text-align: center;
+    padding-bottom: 20px;
 }
